@@ -1,16 +1,8 @@
 #include <stdio.h>
-#include "livingroom.h"
-int main() //Frontdoor
+#include "room.c"
+int main()
 {
-    char choicen;
-    
-    printf("There is a villa.Do you want go to it?\nYes or No?[\"y\" or \"n\"]:");
-    choicen = getchar();
-    
-    if (choicen == 'y')
-        livingroom();
-    else
-        printf("Bye!\n");
+    frontdoor();
 
     return 0;
 }
