@@ -1,13 +1,17 @@
 #include <stdio.h>
+#include <stdlib.h>
+
+void frontdoor();
 void livingroom();
 void garage();
 void kitchen();
+
 void frontdoor()
 {
     char choicen;
 
-    printf("There is a villa.Do you want go to it?\nYes or No?[\"y\" or \"n\"]:");
-    choicen = getchar();
+    printf("\nThere is a villa.Do you want go to it?\nYes or No?[\"y\" or \"n\"]:");
+    choicen = system("pause");
 
     if (choicen == 'y')
         livingroom();
