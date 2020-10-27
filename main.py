@@ -1,3 +1,5 @@
 import room
 
-room.frontdoor()
+rom = room.room()
+
+rom.frontdoor()

@@ -1,7 +1,10 @@
 class room():
-    
-    def frontdoor():
-        print ("There is a villa.Do you want go to it?\nHave a choice[\'y\' or \'n\']:")
 
-    def livingroom():
-        print ("There is livingroom.\nThere are garage and kitchen.\nHave a choice[\'g\' or \'k\', \'b\' to back]")
+    def __init__(self):
+        print("|================|")
+    
+    def frontdoor(self):
+        print ("这是正门")
+
+    def livingroom(self):
+        print ("这是客厅")

@@ -1,3 +1,0 @@
-import room
-
-room.frontdoor()
